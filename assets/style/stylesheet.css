@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.grid-containers {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "barrita main main main"
+    "footer footer footer footer";
+}
+
+.main {
+  display: grid;
+  grid-area: main;
+  background-color: aquamarine;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.misiones {
+  display: flex;
+  background-color: aquamarine;
+  flex-direction: column;
+  justify-content: center;
+  width: 12rem;
+  border: 2px solid black;
+  text-align: center;
+}
+.misiones img {
+  flex-direction: column;
+  width: 25vh;
+  height: 30vh;
+}
+.header {
+  grid-area: header;
+  background-color: red;
+}
+.barrita {
+  grid-area: barrita;
+  background-color: purple;
+}
+.footer {
+  grid-area: footer;
+  background-color: black;
+}
