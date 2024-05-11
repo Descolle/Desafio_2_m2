@@ -7,21 +7,22 @@ h1 {
   font-weight: 100;
   font-style: normal;
   text-align: center;
+  color: snow;
+  text-shadow: 1px 1px 3px black;
 }
 
 .grid-containers {
   display: grid;
   grid-template-areas:
-    "header header header"
-    "barrita main main"
-    "footer footer footer";
+    "header header header header"
+    "barrita main main main"
+    "footer footer footer footer";
 }
 
 .main {
   display: grid;
   grid-area: main;
   grid-template-columns: 1fr 1fr 1fr;
-  background-image: url(../img/madera.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -48,7 +49,11 @@ h1 {
 }
 .barrita {
   grid-area: barrita;
-  background-color: purple;
+  background-color: gray;
+  text-align: start;
+}
+h3 {
+    text-decoration:underline;
 }
 .footer {
   grid-area: footer;
