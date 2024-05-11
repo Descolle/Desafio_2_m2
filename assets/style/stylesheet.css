@@ -2,6 +2,12 @@
   margin: 0px;
   padding: 0px;
 }
+h1 {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+}
 
 .grid-containers {
   display: grid;
@@ -14,15 +20,16 @@
 .main {
   display: grid;
   grid-area: main;
-  background-color: aquamarine;
   grid-template-columns: 1fr 1fr 1fr;
+  background-image: url(../img/madera.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .misiones {
   display: flex;
-  background-color: aquamarine;
   flex-direction: column;
-  justify-content: center;
+  background-color: #c99868;
   width: 12rem;
   border: 1px solid black;
   text-align: center;
@@ -33,10 +40,11 @@
   flex-direction: column;
   width: 25vh;
   height: 30vh;
+  border: 1px solid;
 }
 .header {
   grid-area: header;
-  background-color: red;
+  background-color: cyan;
 }
 .barrita {
   grid-area: barrita;
