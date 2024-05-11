@@ -6,9 +6,9 @@
 .grid-containers {
   display: grid;
   grid-template-areas:
-    "header header header header"
-    "barrita main main main"
-    "footer footer footer footer";
+    "header header header"
+    "barrita main main"
+    "footer footer footer";
 }
 
 .main {
@@ -24,8 +24,10 @@
   flex-direction: column;
   justify-content: center;
   width: 12rem;
-  border: 2px solid black;
+  border: 1px solid black;
   text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 .misiones img {
   flex-direction: column;
