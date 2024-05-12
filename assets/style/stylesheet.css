@@ -43,7 +43,7 @@ h4 {
 }
 .misiones img {
   flex-direction: column;
-  width: 25vh;
+  width: 12rem;
   height: 30vh;
   border: 1px solid;
 }
